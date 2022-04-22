@@ -1,0 +1,224 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  basicTimeStep 8
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9996492157137551 -0.02557755976985676 -0.0068726966391276425 0.5251758751855289
+  position 0.028012586674550057 0.9840748490239299 1.9025391802864684
+}
+Background {
+  skyColor [
+    0 0.6 1
+  ]
+  backUrl [
+    "Screen Shot 2022-03-21 at 10.32.57.png"
+  ]
+  bottomUrl [
+    "Screen Shot 2022-03-21 at 10.33.43.png"
+  ]
+  frontUrl [
+    ""
+  ]
+}
+DirectionalLight {
+  direction 0 -1 1
+  intensity 3
+}
+RectangleArena {
+  translation 0.00993028 0 0.0445768
+  floorTileSize 2 2
+  floorAppearance Appearance {
+    material Material {
+      ambientIntensity 0.5
+      diffuseColor 1 0.8 0.8
+      specularColor 1 0.6 0.5
+    }
+    texture ImageTexture {
+      url [
+        "Screen Shot 2022-03-21 at 10.06.44.png"
+      ]
+    }
+  }
+  wallThickness 0.03
+  wallHeight 0.05
+  wallAppearance PBRAppearance {
+    baseColor 0.2 0.4 0.4
+    roughnessMap ImageTexture {
+    }
+    metalness 0
+  }
+}
+E-puck {
+  translation -0.253738 -1.59514e-05 0.00131356
+  rotation 0.0015467316354586885 -0.9999982617400702 0.001041219518598887 1.190562364270827
+  name "e-puck1"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.238849 -1.59879e-05 -0.111538
+  rotation 0.0001767187431323757 0.9999999300120841 0.00032976705835230705 -2.1494418726078504
+  name "e-puck2"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.354863 -1.59856e-05 -0.113021
+  rotation 6.613372467899544e-05 0.9999998930711417 0.0004576942598095212 -2.862729115276641
+  name "e-puck3"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.379537 -1.59911e-05 0.0699418
+  rotation 4.001655138978405e-06 0.999999998554682 -5.361550977363823e-05 3.0230373869419975
+  name "e-puck4"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  hidden linearVelocity_0 -0.0002522992300495285 7.673441584808136e-08 0.00026154071385544724
+  hidden angularVelocity_0 0.017436009526004895 -5.1518322175703194e-09 0.016819911952355736
+  translation -0.30051506913230264 -1.5986731544428284e-05 -0.07529085339636801
+  rotation 0.0009065943969588072 -0.9999995206851089 0.0003697514730100543 0.7674145288877605
+  name "e-puck5"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  hidden linearVelocity_0 0.000306843433960526 -4.6126350732339496e-08 -0.00019668649845494424
+  hidden angularVelocity_0 -0.013112422226814616 -3.558017745686768e-08 -0.020456211757670473
+  translation -0.39930117002962257 -1.599448615342662e-05 -0.03960294716990788
+  rotation 0.00024442880919478327 -0.999999962064621 0.00012698548648825084 1.000771397653492
+  name "e-puck6"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.178847 -1.59938e-05 -0.0196917
+  rotation -0.0002724384606902128 -0.9999999260300981 -0.0002715089010178121 1.5926099009652943
+  name "e-puck7"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.290265 -1.5989e-05 0.0687392
+  rotation -0.0006644154408028674 -0.9999997328408653 -0.00030474632092553907 0.8584441481949376
+  name "e-puck9"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.34097 -1.59904e-05 0.00313175
+  rotation -0.0006921085923461912 -0.9999997355838505 -0.0002231992952684563 0.6226311210041519
+  name "e-puck8"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+E-puck {
+  translation -0.211324 -1.59937e-05 0.0813546
+  rotation 4.248535950066115e-05 0.9999999957495125 8.182890182213574e-05 -2.1693923220146054
+  name "e-puck10"
+  controller "e-puck-move_to_destination_location"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+Can {
+  translation 0.44013 0.0610659 -0.019538
+  rotation 0.003406014642823587 0.9999494745924503 -0.009457659675398241 0.017687116914042775
+}
+Fluid {
+  translation -0.0651025 -1.11023e-15 -0.606932
+  scale 5 5 5
+  children [
+    Ball {
+      hidden linearVelocity_0 -0.002156518427455927 -1.659394438700418e-05 0.0032652960746245344
+      hidden angularVelocity_0 0.06579160208043157 -2.3251157735836604e-20 0.04345112939708316
+      translation -0.027306771186301076 0.009852849980418342 0.05784902731834025
+      rotation -0.5350116538349462 -0.8342682401602173 -0.13326302458210018 0.8010547929582709
+      name "ball(1)"
+      radius 0.01
+      mass 0.015
+    }
+  ]
+  boundingObject Shape {
+    geometry Sphere {
+      radius 0.1
+    }
+  }
+}
+Solid {
+  translation 0 -55241.59798080699 0
+  immersionProperties [
+    ImmersionProperties {
+      fluidName "fluid"
+      referenceArea "xyz-projection"
+    }
+  ]
+  physics Physics {
+  }
+  linearVelocity 0 -1041.0372000001275 0
+}
+Apple {
+  translation 0.146896 0.05 0.274504
+}
